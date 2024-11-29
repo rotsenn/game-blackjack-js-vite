@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blackjack - Vite</title>
+</head>
+
+<body>
+
+  <header>
+    <p>BlackJack</p>
+  </header>
+  <main>
+    <div class="btns">
+      <button id="btnNew" class="btn new-game">Nuevo Juego</button>
+      <button id="btnRequest" class="btn ask-card">Pedir Carta</button>
+      <button id="btnStop" class="btn stop">Detener</button>
+    </div>
+
+    <div class="container-cards">
+      <div class="card-container card-player">
+
+        <h2>Jugador 1 - <small>0</small></h2>
+
+        <div id="player" class="player-cards">
+          <!-- <img class="card" src="./assets/cartas/10C.png" alt=""> -->
+        </div>
+
+      </div>
+
+      <div class="card-container card-computer">
+        <h2 class="h2-two">Computadora - <small>0</small></h2>
+
+        <div id="computer" class="player-cards">
+          <!-- <img class="card" src="./assets/cartas/2D.png" alt=""> -->
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>

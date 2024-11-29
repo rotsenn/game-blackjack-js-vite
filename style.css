@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #2F5F40;
+  position: relative;
+  color: #fff;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  height: 10vh;
+}
+
+.btns,
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns>* {
+  margin: 1em 0.5em;
+  padding: 0.6em;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.new-game {
+  background-color: #f03a03;
+
+  &:hover {
+      background-color: rgba(255, 0, 0, 0.897);
+  }
+}
+
+.ask-card {
+  background-color: #3b12cf;
+
+  &:hover {
+      background-color: rgba(68, 0, 255, 0.897);
+  }
+}
+
+.stop {
+  background-color: #05af41;
+
+  &:hover {
+      background-color: rgba(73, 182, 0, 0.767);
+  }
+}
+
+.card-container {
+  width: auto;
+  /* background-color: aquamarine; */
+  margin: 0 5px 15px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+
+.card-container h2 {
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.player-cards {
+  width: clamp(100px, 100%, 100vw);
+  height: 170px;
+  min-height: 170px;
+  /* background-color: #83998b; */
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 65px;
+  box-sizing: border-box;
+  padding: -100px;
+  transition: height 0.9s ease;
+}
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 0px;
+}
+
+/* .card-computer {
+  margin-top: 20px;
+} */
+
+.card {
+  max-width: 3cm;
+  margin-left: -55px;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
