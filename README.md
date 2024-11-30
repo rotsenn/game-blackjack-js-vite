@@ -47,6 +47,9 @@ Si deseas mejorar el juego o reportar errores, crea un *issue* o un *pull reques
 #### Licencia  
 Este proyecto está bajo la licencia [MIT](LICENSE).  
 
+#### Créditos  
+Este proyecto fue desarrollado como parte del [curso de JavaScript Moderno](https://fernando-herrera.com) impartido por **Fernando Herrera**. Su contenido y enseñanzas fueron fundamentales para la creación de este juego de Blackjack. 
+
 ---
 
 ### English 🇬🇧  
@@ -89,17 +92,9 @@ Este proyecto está bajo la licencia [MIT](LICENSE).
 If you'd like to enhance the game or report issues, feel free to open an *issue* or *pull request* in the repository.  
 
 #### License  
-This project is licensed under the [MIT License](LICENSE).  
+This project is licensed under the [MIT License](LICENSE).   
 
-
-### Español 🇪🇸  
-
-#### Créditos  
-Este proyecto fue desarrollado como parte del [curso de JavaScript Moderno](https://fernando-herrera.com) impartido por **Fernando Herrera**. Su contenido y enseñanzas fueron fundamentales para la creación de este juego de Blackjack.  
-
----
-
-### English 🇬🇧  
+--- 
 
 #### Credits  
 This project was developed as part of the [Modern JavaScript course](https://fernando-herrera.com) taught by **Fernando Herrera**. His content and guidance were essential in creating this Blackjack game.  
